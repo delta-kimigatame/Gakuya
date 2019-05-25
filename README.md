@@ -1,0 +1,2 @@
+# Gakuya
+UTAU VoiceBanks Init
