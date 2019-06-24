@@ -118,143 +118,143 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CancelButton" xml:space="preserve">
-    <value>Cancel</value>
+    <value>キャンセル</value>
   </data>
   <data name="CharacterAuthorLabel" xml:space="preserve">
-    <value>Author(author)</value>
+    <value>製作者(author)</value>
   </data>
   <data name="CharacterCheck" xml:space="preserve">
-    <value>Edit character.txt</value>
+    <value>character.txtを編集する</value>
   </data>
   <data name="CharacterImageButton" xml:space="preserve">
-    <value>Browse</value>
+    <value>参照</value>
   </data>
   <data name="CharacterImageLabel" xml:space="preserve">
-    <value>Image(image)</value>
+    <value>画像ファイル(image)</value>
   </data>
   <data name="CharacterNameLabel" xml:space="preserve">
-    <value>Character Name(name)</value>
+    <value>キャラクター名(name)</value>
   </data>
   <data name="CharacterSampleButton" xml:space="preserve">
-    <value>Browse</value>
+    <value>参照</value>
   </data>
   <data name="CharacterSampleLabel" xml:space="preserve">
-    <value>Sample Voice(sample)</value>
+    <value>サンプルボイス(sample)</value>
   </data>
   <data name="CharacterVersionLabel" xml:space="preserve">
-    <value>Version(version)</value>
+    <value>バージョン(version)</value>
   </data>
   <data name="CharacterWebLabel" xml:space="preserve">
-    <value>web address(web)</value>
+    <value>webアドレス(web)</value>
   </data>
   <data name="CheckDio" xml:space="preserve">
-    <value>Remove *.dio,*.star,*.platinum</value>
+    <value>*.dio,*.star,*.platinumを削除</value>
   </data>
   <data name="CheckFrc" xml:space="preserve">
-    <value>Remove *.frc</value>
+    <value>*.frcを削除</value>
   </data>
   <data name="CheckFrq" xml:space="preserve">
-    <value>Show warning ig no *.frq files exist</value>
+    <value>*.frqがない場合警告</value>
   </data>
   <data name="CheckLlsm" xml:space="preserve">
-    <value>Remove *.llsm</value>
+    <value>*.llsmを削除</value>
   </data>
   <data name="CheckMrq" xml:space="preserve">
-    <value>Remove *.mrq</value>
+    <value>*.mrqを削除</value>
   </data>
   <data name="CheckOto" xml:space="preserve">
-    <value>Check OTO.ini</value>
+    <value>原音設定ファイルのチェック</value>
   </data>
   <data name="CheckPmk" xml:space="preserve">
-    <value>Remove *.pmk</value>
+    <value>*.pmkを削除</value>
   </data>
   <data name="CheckRead" xml:space="preserve">
-    <value>Remove $read</value>
+    <value>$readを削除</value>
   </data>
   <data name="CheckUspec" xml:space="preserve">
-    <value>Remove *.uspec</value>
+    <value>*.uspecを削除</value>
   </data>
   <data name="CheckVs4ufrq" xml:space="preserve">
-    <value>Remove *.vs4ufrq</value>
+    <value>*.vs4ufrqを削除</value>
   </data>
   <data name="CheckWavSample" xml:space="preserve">
-    <value>Show warning if the sample rate isn't 44100</value>
+    <value>サンプリングレートが44100以外の場合警告する</value>
   </data>
   <data name="CheckWavStereo" xml:space="preserve">
-    <value>Show stereo file warning</value>
+    <value>ステレオ音源を警告する</value>
   </data>
   <data name="ErrorVoiceDirNotSelected" xml:space="preserve">
-    <value>VoiceDir is not selected.</value>
+    <value>音源フォルダを指定してください。</value>
   </data>
   <data name="FileCheck" xml:space="preserve">
-    <value>Check Files</value>
+    <value>ファイルをチェックする</value>
   </data>
   <data name="FileCheckBox" xml:space="preserve">
-    <value>Basic Files</value>
+    <value>基本ファイル</value>
   </data>
   <data name="FrqAuto" xml:space="preserve">
-    <value>Recomended Settings</value>
+    <value>推奨設定</value>
   </data>
   <data name="FrqCheckBox" xml:space="preserve">
-    <value>Check FRQ</value>
+    <value>周波数表ファイル</value>
   </data>
   <data name="HasProblem" xml:space="preserve">
-    <value>Warning
-Please check report tab.</value>
+    <value>不具合があります。
+reportタブを確認してください。</value>
   </data>
   <data name="ImageDialogFilter" xml:space="preserve">
-    <value>Image(*.bmp)|*.bmp</value>
+    <value>画像(*.bmp)|*.bmp</value>
   </data>
   <data name="ImageDialogTitle" xml:space="preserve">
-    <value>Choose Image</value>
+    <value>画像を選択</value>
   </data>
   <data name="InstallCheck" xml:space="preserve">
-    <value>Edit install.txt</value>
+    <value>install.txtを編集する</value>
   </data>
   <data name="InstallContentsDirLabel" xml:space="preserve">
-    <value>Directory of install contents(contentsdir)</value>
+    <value>インストールしたいものが入っているフォルダ名(contentsdir)</value>
   </data>
   <data name="InstallDescriptionLabel" xml:space="preserve">
-    <value>Description(description)</value>
+    <value>説明文など(description)</value>
   </data>
   <data name="InstallDirLabel" xml:space="preserve">
-    <value>Install Directory Name(folder)</value>
+    <value>インストール先ディレクトリ名(folder)</value>
   </data>
   <data name="MakeUarCheck" xml:space="preserve">
-    <value>Make uar file too.</value>
+    <value>uarファイルも作成する</value>
   </data>
   <data name="ReadMeCheck" xml:space="preserve">
-    <value>Edit readme.txt</value>
+    <value>readme.txtを編集する</value>
   </data>
   <data name="ResultUar" xml:space="preserve">
-    <value>uar file was saved.</value>
+    <value>uarファイルを作成しました。</value>
   </data>
   <data name="ResultZip" xml:space="preserve">
-    <value>zip file was saved.</value>
+    <value>zipファイルを作成しました。</value>
   </data>
   <data name="SampleDialogFilter" xml:space="preserve">
-    <value>wave(*.wav)|*.wav</value>
+    <value>音声ファイル(*.wav)|*.wav</value>
   </data>
   <data name="SampleDialogTitle" xml:space="preserve">
-    <value>Choose voice sample</value>
+    <value>サンプルを選択</value>
   </data>
   <data name="SaveCancel" xml:space="preserve">
-    <value>Stopped saving</value>
+    <value>保存を中止しました</value>
   </data>
   <data name="SaveDialogFilter" xml:space="preserve">
-    <value>zip(*.zip)|*.zip</value>
+    <value>圧縮ファイル(*.zip)|*.zip</value>
   </data>
   <data name="SaveDialogTitle" xml:space="preserve">
-    <value>Save</value>
+    <value>保存</value>
   </data>
   <data name="SubmitButton" xml:space="preserve">
-    <value>Submit</value>
+    <value>実行</value>
   </data>
   <data name="TabCharacter" xml:space="preserve">
     <value>Character.txt</value>
   </data>
   <data name="TabFileCheck" xml:space="preserve">
-    <value>File Check</value>
+    <value>ファイルチェック</value>
   </data>
   <data name="TabInstall" xml:space="preserve">
     <value>Install</value>
@@ -263,24 +263,24 @@ Please check report tab.</value>
     <value>Read Me</value>
   </data>
   <data name="TabReport" xml:space="preserve">
-    <value>Report</value>
+    <value>レポート</value>
   </data>
   <data name="UpdateCharacter" xml:space="preserve">
-    <value>character.txt  is  updated</value>
+    <value>character.txtを更新しました</value>
   </data>
   <data name="UpdateInstall" xml:space="preserve">
-    <value>install.txt  is  updated</value>
+    <value>install.txtを更新しました</value>
   </data>
   <data name="UpdateReadMe" xml:space="preserve">
-    <value>readme.txt  is  updated</value>
+    <value>readme.txtを更新しました</value>
   </data>
   <data name="VoiceBankDialogTitle" xml:space="preserve">
-    <value>Chose Voice Dir</value>
+    <value>音源フォルダを選択</value>
   </data>
   <data name="VoiceDirButton" xml:space="preserve">
-    <value>Browse</value>
+    <value>参照</value>
   </data>
   <data name="WavCheckBox" xml:space="preserve">
-    <value>wav File</value>
+    <value>wavファイル</value>
   </data>
 </root>

@@ -9,7 +9,7 @@ using System.Windows;
 using System.Text;
 using utauPlugin;
 
-namespace gakuya
+namespace Gakuya
 {
     /// <summary>
     /// MainWindow.xaml の相互作用ロジック
@@ -227,8 +227,8 @@ namespace gakuya
         private void CharacterImageButton_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new OpenFileDialog();
-            dialog.Title = "画像を選択";
-            dialog.Filter = "画像(*.bmp)|*.bmp";
+            dialog.Title = Properties.Resources.ImageDialogTitle;
+            dialog.Filter = Properties.Resources.ImageDialogFilter;
             dialog.InitialDirectory = dirPath;
             if(dialog.ShowDialog() == true)
             {
@@ -239,8 +239,8 @@ namespace gakuya
         private void CharacterSampleButton_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new OpenFileDialog();
-            dialog.Title = "サンプルを選択";
-            dialog.Filter = "音声ファイル(*.wav)|*.wav";
+            dialog.Title = Properties.Resources.SampleDialogTitle;
+            dialog.Filter = Properties.Resources.SampleDialogFilter;
             dialog.InitialDirectory = dirPath;
             if (dialog.ShowDialog() == true)
             {
@@ -253,7 +253,7 @@ namespace gakuya
         {
             if (dirPath == "")
             {
-                MessageBox.Show("音源フォルダを指定してください。");
+                MessageBox.Show(Properties.Resources.ErrorVoiceDirNotSelected);
                 return;
             }
             if (checkFile)
@@ -266,7 +266,7 @@ namespace gakuya
                 }
                 if (FC.Alert)
                 {
-                    MessageBox.Show("不具合があります。\nreportタブを確認してください。");
+                    MessageBox.Show(Properties.Resources.HasProblem);
                     reportTab.IsSelected=true;
                 }
             }
@@ -279,13 +279,13 @@ namespace gakuya
                 Character.Author = characterAuthor.Text;
                 Character.Web = characterWeb.Text;
                 Character.Write();
-                MessageBox.Show("character.txtを更新しました");
+                MessageBox.Show(Properties.Resources.UpdateCharacter);
             }
             if (checkReadme)
             {
                 Readme.Data = readme.Text;
                 Readme.Write();
-                MessageBox.Show("readme.txtを更新しました");
+                MessageBox.Show(Properties.Resources.UpdateReadMe);
             }
             if (checkInstall)
             {
@@ -293,14 +293,14 @@ namespace gakuya
                 Install.Contentsdir = installContentsDir.Text;
                 Install.Description = installDescription.Text;
                 Install.Write();
-                MessageBox.Show("install.txtを更新しました");
+                MessageBox.Show(Properties.Resources.UpdateInstall);
             }
             MakeZip();
 
         }
         private void VoiceDirButton_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new CommonOpenFileDialog("音源フォルダを選択");
+            var dialog = new CommonOpenFileDialog(Properties.Resources.VoiceBankDialogTitle);
             dialog.IsFolderPicker = true;
             if(dialog.ShowDialog() == CommonFileDialogResult.Ok)
             {
@@ -358,8 +358,8 @@ namespace gakuya
             String outputPath = "";
             List<String> files = FC.GetNeedFiles();
             var dialog = new SaveFileDialog();
-            dialog.Title = "保存";
-            dialog.Filter = "圧縮ファイル(*.zip)|*.zip";
+            dialog.Title = Properties.Resources.SaveDialogTitle;
+            dialog.Filter = Properties.Resources.SaveDialogFilter;
             dialog.FileName = dirPath.Replace(Directory.GetParent(dirPath).ToString() + "\\", "");
             dialog.InitialDirectory = dirPath;
             if (dialog.ShowDialog() == true)
@@ -368,7 +368,7 @@ namespace gakuya
             }
             else
             {
-                MessageBox.Show("保存を中止しました");
+                MessageBox.Show(Properties.Resources.SaveCancel);
                 return;
             }
             File.Delete(outputPath);
@@ -387,12 +387,12 @@ namespace gakuya
 
 
             }
-            MessageBox.Show("zipファイルを作成しました。");
+            MessageBox.Show(Properties.Resources.ResultZip);
             if (needUar)
             {
                 File.Delete(outputPath.Replace(".zip",".uar"));
                 File.Copy(outputPath, outputPath.Replace(".zip", ".uar"));
-                MessageBox.Show("uarファイルを作成しました。");
+                MessageBox.Show(Properties.Resources.ResultUar);
 
             }
         }

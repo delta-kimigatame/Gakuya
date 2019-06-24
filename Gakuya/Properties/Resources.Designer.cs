@@ -22,7 +22,7 @@ namespace Gakuya.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Gakuya.Properties {
         ///   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Gakuya.Properties.Resources", typeof(Resources).Assembly);
@@ -51,12 +51,508 @@ namespace Gakuya.Properties {
         ///   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Cancel に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CancelButton {
+            get {
+                return ResourceManager.GetString("CancelButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Author(author) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterAuthorLabel {
+            get {
+                return ResourceManager.GetString("CharacterAuthorLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Edit character.txt に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterCheck {
+            get {
+                return ResourceManager.GetString("CharacterCheck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Browse に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterImageButton {
+            get {
+                return ResourceManager.GetString("CharacterImageButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Image(image) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterImageLabel {
+            get {
+                return ResourceManager.GetString("CharacterImageLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Character Name(name) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterNameLabel {
+            get {
+                return ResourceManager.GetString("CharacterNameLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Browse に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterSampleButton {
+            get {
+                return ResourceManager.GetString("CharacterSampleButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sample Voice(sample) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterSampleLabel {
+            get {
+                return ResourceManager.GetString("CharacterSampleLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Version(version) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterVersionLabel {
+            get {
+                return ResourceManager.GetString("CharacterVersionLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   web address(web) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterWebLabel {
+            get {
+                return ResourceManager.GetString("CharacterWebLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Remove *.dio,*.star,*.platinum に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckDio {
+            get {
+                return ResourceManager.GetString("CheckDio", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Remove *.frc に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckFrc {
+            get {
+                return ResourceManager.GetString("CheckFrc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Show warning ig no *.frq files exist に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckFrq {
+            get {
+                return ResourceManager.GetString("CheckFrq", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Remove *.llsm に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckLlsm {
+            get {
+                return ResourceManager.GetString("CheckLlsm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Remove *.mrq に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckMrq {
+            get {
+                return ResourceManager.GetString("CheckMrq", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Check OTO.ini に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckOto {
+            get {
+                return ResourceManager.GetString("CheckOto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Remove *.pmk に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckPmk {
+            get {
+                return ResourceManager.GetString("CheckPmk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Remove $read に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckRead {
+            get {
+                return ResourceManager.GetString("CheckRead", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Remove *.uspec に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckUspec {
+            get {
+                return ResourceManager.GetString("CheckUspec", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Remove *.vs4ufrq に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckVs4ufrq {
+            get {
+                return ResourceManager.GetString("CheckVs4ufrq", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Show warning if the sample rate isn&apos;t 44100 に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckWavSample {
+            get {
+                return ResourceManager.GetString("CheckWavSample", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Show stereo file warning に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CheckWavStereo {
+            get {
+                return ResourceManager.GetString("CheckWavStereo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   VoiceDir is not selected. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ErrorVoiceDirNotSelected {
+            get {
+                return ResourceManager.GetString("ErrorVoiceDirNotSelected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Check Files に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string FileCheck {
+            get {
+                return ResourceManager.GetString("FileCheck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Basic Files に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string FileCheckBox {
+            get {
+                return ResourceManager.GetString("FileCheckBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recomended Settings に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string FrqAuto {
+            get {
+                return ResourceManager.GetString("FrqAuto", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Check FRQ に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string FrqCheckBox {
+            get {
+                return ResourceManager.GetString("FrqCheckBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Warning
+        ///Please check report tab. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string HasProblem {
+            get {
+                return ResourceManager.GetString("HasProblem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Image(*.bmp)|*.bmp に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ImageDialogFilter {
+            get {
+                return ResourceManager.GetString("ImageDialogFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Choose Image に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ImageDialogTitle {
+            get {
+                return ResourceManager.GetString("ImageDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Edit install.txt に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string InstallCheck {
+            get {
+                return ResourceManager.GetString("InstallCheck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Directory of install contents(contentsdir) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string InstallContentsDirLabel {
+            get {
+                return ResourceManager.GetString("InstallContentsDirLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Description(description) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string InstallDescriptionLabel {
+            get {
+                return ResourceManager.GetString("InstallDescriptionLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Install Directory Name(folder) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string InstallDirLabel {
+            get {
+                return ResourceManager.GetString("InstallDirLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Make uar file too. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string MakeUarCheck {
+            get {
+                return ResourceManager.GetString("MakeUarCheck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Edit readme.txt に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ReadMeCheck {
+            get {
+                return ResourceManager.GetString("ReadMeCheck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   uar file was saved. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ResultUar {
+            get {
+                return ResourceManager.GetString("ResultUar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   zip file was saved. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ResultZip {
+            get {
+                return ResourceManager.GetString("ResultZip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   wave(*.wav)|*.wav に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SampleDialogFilter {
+            get {
+                return ResourceManager.GetString("SampleDialogFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Choose voice sample に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SampleDialogTitle {
+            get {
+                return ResourceManager.GetString("SampleDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Stopped saving に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SaveCancel {
+            get {
+                return ResourceManager.GetString("SaveCancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   zip(*.zip)|*.zip に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SaveDialogFilter {
+            get {
+                return ResourceManager.GetString("SaveDialogFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Save に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SaveDialogTitle {
+            get {
+                return ResourceManager.GetString("SaveDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Submit に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SubmitButton {
+            get {
+                return ResourceManager.GetString("SubmitButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Character.txt に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string TabCharacter {
+            get {
+                return ResourceManager.GetString("TabCharacter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   File Check に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string TabFileCheck {
+            get {
+                return ResourceManager.GetString("TabFileCheck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Install に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string TabInstall {
+            get {
+                return ResourceManager.GetString("TabInstall", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Read Me に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string TabReadMe {
+            get {
+                return ResourceManager.GetString("TabReadMe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Report に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string TabReport {
+            get {
+                return ResourceManager.GetString("TabReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   character.txt  is  updated に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string UpdateCharacter {
+            get {
+                return ResourceManager.GetString("UpdateCharacter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   install.txt  is  updated に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string UpdateInstall {
+            get {
+                return ResourceManager.GetString("UpdateInstall", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   readme.txt  is  updated に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string UpdateReadMe {
+            get {
+                return ResourceManager.GetString("UpdateReadMe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Chose Voice Dir に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string VoiceBankDialogTitle {
+            get {
+                return ResourceManager.GetString("VoiceBankDialogTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Browse に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string VoiceDirButton {
+            get {
+                return ResourceManager.GetString("VoiceDirButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   wav File に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string WavCheckBox {
+            get {
+                return ResourceManager.GetString("WavCheckBox", resourceCulture);
             }
         }
     }

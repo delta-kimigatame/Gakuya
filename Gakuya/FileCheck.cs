@@ -6,7 +6,7 @@ using Wave;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace gakuya
+namespace Gakuya
 {
     class FileCheck
     {

@@ -6,7 +6,7 @@ using System.Text;
 using System.Globalization;
 using System.Threading.Tasks;
 
-namespace gakuya
+namespace Gakuya
 {
     class IOCharacter
     {
