@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gakuya", "..\..\..\VSworkspace\gakuya\gakuya\gakuya.csproj", "{CFE9B62B-F43E-4B0D-8B1F-A07C4F326E92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gakuya", "gakuya\Gakuya.csproj", "{CFE9B62B-F43E-4B0D-8B1F-A07C4F326E92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

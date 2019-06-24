@@ -1,7 +1,7 @@
-﻿<Application x:Class="Gakuya.App"
+﻿<Application x:Class="gakuya.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Gakuya"
+             xmlns:local="clr-namespace:gakuya"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
